@@ -4,13 +4,11 @@ import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 
 export default function Header() {
     return (<>
-     <View style={styles.dis}>
+     
      <View style={styles.header}>
         <Image style={styles.logo} source={require('../HomeEstate-logo-2-.png')} />
         <Text style={styles.heading}>HomeEstate</Text>
-        </View>
-    
-      </View>
+    </View>
       </>
     );
   }
@@ -22,22 +20,20 @@ export default function Header() {
       header:{
         flexDirection:'row',
         alignItems:'center',
-        backgroundColor: '#fff',
-     
-      },
-      
+        backgroundColor: '#fff',  
+       
+
+      },      
     heading:{
-      
-      
-     
       fontSize:20,
-      
       color:'#006400',
+      marginTop:20,
+      marginLeft:5,
     },
     logo:{
-      height:30,
-      width:30,
-      marginLeft: 20,
+      height:40,
+      width:40,
+      marginLeft: 10,
       marginTop: 20,
       
     },

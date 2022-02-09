@@ -5,6 +5,7 @@ import Header from './Header';
 export default function App() {
   return (<>
    <Header/>
+   <TextInput placeholder='Plz Enter your Address' style></TextInput>
     </>
   );
 }
