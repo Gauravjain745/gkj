@@ -4,10 +4,10 @@ import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 
 export default function App() {
   return (<>
-  <Image
+  {/* <Image
         
-        source={require('@/logo/HomeEstate-logo-2-png')}
-      />
+        source={require('HomeEstate-logo-2-.png')}
+      /> */}
      <Text style={styles.heading}>HomeEstate</Text>
     <View style={styles.container}>
      
