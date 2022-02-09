@@ -6,7 +6,7 @@ export default function Header() {
     return (<>
      
      <View style={styles.header}>
-        <Image style={styles.logo} source={require('../HomeEstate-logo-2-.png')} />
+        <Image style={styles.logo} source={require('../Asset/')} />
         <Text style={styles.heading}>HomeEstate</Text>
     </View>
       </>
