@@ -5,15 +5,15 @@ import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 export default function Header() {
     return (<>
      
-     <View style={styles.header}>
-        <Image style={styles.logo} source={require('../Asset/')} />
-        <Text style={styles.heading}>HomeEstate</Text>
+     <View style={HeaderStyles.header}>
+        <Image style={HeaderStyles.logo} source={require('../Asset/HomeEstate-logo-2-.png')} />
+        <Text style={HeaderStyles.heading}>HomeEstate</Text>
     </View>
       </>
     );
   }
 
-  const styles = StyleSheet.create({
+  const HeaderStyles = StyleSheet.create({
     dis:{
         backgroundColor: '#90EE90', 
       },
